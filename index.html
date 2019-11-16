@@ -63,8 +63,27 @@
 
 		<style>
 			body { width: 1366px; height: 760px; }
-			.landscape, .landscape .prx-page { min-height: 1366px; overflow:scroll;}
-			.portrait, .portrait .prx-page { min-height: 760px; overflow:scroll;}
+			.landscape, .landscape .prx-page { min-height: 1366px;}
+			.portrait, .portrait .prx-page { min-height: 760px;}
+			/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 		</style>
 
 		<script type="text/javascript">
